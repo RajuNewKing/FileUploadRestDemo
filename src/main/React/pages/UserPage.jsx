@@ -35,7 +35,7 @@ export class UserPage extends React.Component {
         return (
           <form onSubmit={this.onFormSubmit}>
             <h1>File Upload</h1>
-            <input type="file" onChange={this.onChange} multiple/>
+            <input name="file" type="file" onChange={this.onChange} multiple/>
             <button type="submit">Upload</button>
           </form>
        )
